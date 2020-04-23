@@ -40,6 +40,13 @@ ul li a {
     text-align: center;
 }
 
+.article-bg2 {
+    height: 300px;
+    padding: 15px;
+    background-color: rgb(14, 114, 105);
+    text-align: center;
+}
+
 /*box model test*/
 .box1 {
     display: inline-block;
