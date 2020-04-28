@@ -28,7 +28,8 @@ ul li{
 }
 ul li a {
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-family: 'Dokdo', cursive;
+    font-size: 30px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -131,4 +132,22 @@ td {
 tfoot {
     background-color: #360cf1;
     color: #fff;
+}
+.grid-container {
+    background-color: rgb(207, 42,42);
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.item1 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.grid-item {
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
 }
