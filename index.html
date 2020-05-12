@@ -17,6 +17,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li class="logo">이상현</li>
+            <li> <a href="#">One Page Site</a>
+                <ul>
+                    <li> <a href="#pos1">박스모델 연습</a>
+                    <li> <a href="#pos2">멀티미디어</a>
+                    <li> <a href="#pos3">audio,video</a>
+                    <li> <a href="#pos4">유튜브 삽입</a>
+                    <li> <a href="#pos5">테이블 연습</a>
+                    <li> <a href="#pos6">CSS grid</a>
+                    <li> <a href="#pos7">Copyright</a>        
+                </ul>
+            </li>
+            <li> <a href="#">메뉴1</a>
+                <ul>
+                    <li> <a href="#pos2">메뉴2-1</a>
+                    <li> <a href="#pos2">메뉴2-2</a>
+                    <li> <a href="#pos2">메뉴2-3</a>
+                </ul>
+            </li>
+            <li> <a href="#">메뉴2</a>
+                <ul>
+                    <li> <a href="#pos3">메뉴3-1</a>
+                    <li> <a href="#pos3">메뉴3-2</a>
+                    <li> <a href="#pos3">메뉴3-3</a>
+                </ul>
+            </li>
+        </ul>
+    </nav>
     <header class="full-bg">
         <div class="container">
             <div class="header-title">
@@ -27,16 +57,8 @@
             <div class="button"><a href="#">2020/05/08</a></div>
         </div>
     </header>
-    <nav>
-        <ul>
-            <li class="logo">이상현</li>
-            <li> <a href="#">메뉴1</a></li>
-            <li> <a href="#">메뉴2</a></li>
-            <li> <a href="#">메뉴3</a></li>
-        </ul>
-    </nav>
     <article class="article-bg1">
-        <h1>4월5일 박스모델 연습</h1>
+        <h1><a id="pos1"></a>4월5일 박스모델 연습</a></h1>
         <section>
             <div class="box1">박스1</div>
             <div class="box2">박스2</div>
@@ -44,7 +66,7 @@
         </section>
     </article>
     <article class="article-bg2">
-        <h1>4월23일 멀티미디어 태그 연습</h1>
+        <h1><a id="pos2">4월23일 멀티미디어 태그 연습</a></h1>
         <h2>img 태그 연습</h2>
         <section>
             <img class="img-size1" src="./images/noodles-4851996_640.jpg" alt="스파게티 사진">
@@ -62,7 +84,7 @@
         </section>
     </article>
     <article class="article-bg3">
-        <h2>audio,video tag 연습</h2>
+        <h2><a id="pos3">audio,video tag 연습</a></h2>
         <section>
             <audio controls>
                 <source src="https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3">
@@ -75,13 +97,13 @@
         </section>
     </article>
     <article class="article-bg3">
-        <h2>유튜브 동영상 삽입 연습</h2>
+        <h2><a id="pos4">유튜브 동영상 삽입 연습</a></h2>
         <section>
             <iframe width="350px" height="250px" src="https://www.youtube.com/embed/jO2_3pVd5k0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
     </article>
     <article class="article-bg3">
-        <h1>4월24일 테이블 연습</h1>
+        <h1><a id="pos5">4월24일 테이블 연습</a></h1>
         <section>
             <table>
                 <thead>
@@ -121,7 +143,7 @@
     </article>
     <!-- 0428 CSS Grid -->
     <article class="grid-container">
-        <div class="grid-item item1">4월28일 :CSS grid</div>
+        <div class="grid-item item1"><a id="pos6">4월28일 :CSS grid</a></div>
         <div class="grid-item item2">2</div>
         <div class="grid-item item3">3</div>
         <div class="grid-item item">4</div>
@@ -132,7 +154,7 @@
         <div class="grid-item item">9</div>
         <div class="grid-item item10">10</div>
     </article>
-    <aside>어사이드 영역</aside>
-    <footer>여기는 바닥 영역</footer>
+    <aside></aside>
+    <footer class="footer"><pre><a id="pos7">Copyright &copy; 2020-05-12</a></pre></footer>
 </body>
 </html>
