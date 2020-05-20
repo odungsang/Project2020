@@ -1,5 +1,10 @@
 # Project2020 - 이상현
 
+## 05월 19일 bootstrap
+>bootstrap 페이지 제작<br>
+여러가지 bootstrap 연습<br>
+icon 삽입<br>
+
 ## 05월 12일 여러가지 연습
 >메뉴 위치 변경<br>
 드롭박스 적용<br>
