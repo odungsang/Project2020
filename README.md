@@ -1,5 +1,10 @@
 # Project2020 - 이상현
 
+## 05월 26일 dom 연습
+>자바스크립트 문서객체모델 DOM 연습<br>
+여러가지 DOM 연습<br>
+dom01~08 추가<br>
+
 ## 05월 19일 bootstrap
 >bootstrap 페이지 제작<br>
 여러가지 bootstrap 연습<br>
