@@ -1,9 +1,16 @@
 # Project2020 - 이상현
 
+## 06월 02일 jquery 연습
+>jquery 개념 익히기<br>
+다양한 jquery 연습<br>
+jquery01~12 추가<br>
+버튼 추가<br>
+
 ## 05월 26일 DOM 연습
 >자바스크립트 문서객체모델 DOM 연습<br>
 여러가지 DOM 연습<br>
 dom01~08 추가<br>
+버튼 추가<br>
 
 ## 05월 19일 bootstrap
 >bootstrap 페이지 제작<br>
@@ -27,6 +34,7 @@ Css 그리드 연습
 audio 태그 연습 <br>
 video 태그 연습 <br>
 유튜브 동영상 삽입 숙제
+
 ## 04월 05일 실습내용
 > css 적용방식 <br>
 css 초기화 <br>
